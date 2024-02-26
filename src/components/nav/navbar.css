@@ -1,0 +1,14 @@
+.font li{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    margin-left: 60px;
+    color: white;
+   
+    
+}
+
+.navcolor{
+    background: rgba(235, 214, 24, 0.927);
+}
