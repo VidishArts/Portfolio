@@ -1,0 +1,11 @@
+.boxshadow{
+    box-shadow: 5px 5px 10px rgba(222, 29, 29, 0.5);
+    background: rgba(235, 214, 24, 0.927);
+}
+
+.button{
+    width: 150px;
+    opacity: 80%;
+    border-radius: 10px;
+    background: rgba(235, 214, 24, 0.927)
+}

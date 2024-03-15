@@ -6,13 +6,13 @@ const Navbar = () => {
     return (
         <>
 
-            <nav className="navbar navbar-expand-lg navcolor " style={{display:'flex'  }}>
-                <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg  " style={{ display: 'flex' }}>
+                <div className="container-fluid nav1">
                     <img src="./logo.png" width={40} alt="" />&nbsp;&nbsp;
-                    <Link className="navbar-brand " style={{fontFamily:'serif'}}>
+                    <Link className="navbar-brand " style={{ fontFamily: 'serif' }}>
                         Vidish Portfolio
                     </Link>
-     
+
 
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse  font " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link " aria-current="page" to='home' style={{marginLeft:'350px'}}>
+                                <Link className="nav-link " aria-current="page" to='home' style={{ marginLeft: '350px' }}>
                                     Home
                                 </Link>
                             </li>
@@ -29,12 +29,17 @@ const Navbar = () => {
                                     About
                                 </Link>
                             </li>
-                           
-                            
-                               
+
+
+
                             <li className="nav-item">
                                 <Link className="nav-link  " to='contact'>
                                     Contact
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link  " to='skills'>
+                                    Projects
                                 </Link>
                             </li>
                         </ul>
@@ -44,7 +49,7 @@ const Navbar = () => {
                                 type="search"
                                 placeholder="Search"
                                 aria-label="Search"
-                                style={{borderRadius:'90px',color:'Blue'}}
+                                style={{ borderRadius: '90px', color: 'Blue' }}
                             />
 
                         </form>

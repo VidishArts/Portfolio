@@ -5,9 +5,9 @@ const Contact = () => {
     <>
       <div className="container" style={{ marginTop: '10%', marginLeft:'18%' }}>
 
-          <h1 style={{marginBottom:'5%', marginLeft:'34%'}}>Contact <span style={{color:'rgba(235, 214, 24, 0.927)'}}>Me</span></h1>
+          <h1 style={{marginBottom:'5%', marginLeft:'27%',color:'rgba(30, 30, 30, 0.902)'}}>Contact <span style={{color:'rgba(235, 214, 24, 0.927)'}}>Me</span></h1>
         <div className="row">
-          <div className="col-md-10">
+          <div className="col-md-8" style={{marginLeft:'4%'}}>
 
         
             <form action="">
