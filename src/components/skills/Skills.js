@@ -42,14 +42,9 @@ const Skills = () => {
                   type="button"
                   data-bs-target="#carouselExampleCaptions"
                   data-bs-slide-to={3}
-                  aria-label="Slide 4"
+                 
                 />
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to={4}
-                  aria-label="Slide 5"
-                />
+                
               </div>
               <div className="carousel-inner p-3 mb-5 rounded boxshadow">
                 <div className="carousel-item active">

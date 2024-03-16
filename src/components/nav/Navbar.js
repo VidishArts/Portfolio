@@ -14,10 +14,7 @@ const Navbar = () => {
                     </Link>
 
 
-
-
-
-                    <div className="collapse navbar-collapse  font " id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse font " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <Link className="nav-link " aria-current="page" to='home' style={{ marginLeft: '350px' }}>
